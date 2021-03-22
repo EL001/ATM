@@ -6,7 +6,8 @@
    Methods defined here:
    
   | __init__(self, cash=1000)
-  |     User is given a default account balance of #1000
+       
+       User is given a default account balance of #1000
        
        Parameter
        ----------
