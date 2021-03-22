@@ -15,15 +15,15 @@ contains methods that adds money, withdraws money and checks balance.
  |  
  |  addcash(self, cash_add)
  |      Adds money to the user's account and returns account balance
- |      
+       
  |      Parameter
  |      ----------
  |      cash_add : int
  |          Amount of money to be added to the account
- |  
+   
  |  balance(self)
  |      Returns account balance
- |  
+   
  |  withdraw(self)
  |      Colllects an input of amount to be withdrawn and returns 
 account balance
