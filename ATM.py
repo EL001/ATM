@@ -3,7 +3,8 @@ class ATM:
         self.cash = cash
         print ("Account balance is", cash)
     
-    def addcash(self, cash_add):
+    def addcash(self):
+        cash_add = int(input("Amount of cash to be added "))
         self.cash_add = cash_add
         self.cash = cash_add + self.cash
         print ("Total cash is", self.cash)
@@ -16,8 +17,11 @@ class ATM:
     def balance(self):
         print ("Total amount in account is ", self.cash)
     
+    
+    
 money = ATM()
-money.addcash(100)
+
+money.addcash()
 
 money.withdraw() 
 
