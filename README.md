@@ -13,20 +13,18 @@ class ATM
        ----------
        cash : int
    
-   addcash(self, cash_add)
+   addcash(self)
        
-       Adds money to the user's account and returns account balance
+       Asks the user the amount of money the user wants to add to the account 
+       
+       
+   withdraw(self)
+       
+       Collects an input of the amount to be withdrawn from the account and returns the account balance after withdrawal
+
       
-       Parameter
-       ----------
-       cash_add : int
-           Amount of money to be added to the account
-   
    balance(self)
        
        Returns account balance
    
-   withdraw(self)
-       
-       Colllects an input of amount to be withdrawn and returns account balance
-
+   
